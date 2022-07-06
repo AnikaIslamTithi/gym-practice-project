@@ -107,3 +107,36 @@
     text-decoration: none;
     color: white;
 }
+.workout-container{
+    width: 650px;
+    height: 200px;
+    background-image: url(shape/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service-container{
+    margin-top: 50px;
+}
+.service1{
+    width: 400PX;
+    height: 500PX;
+    border: 1PX solid gray;
+}
+.service-img img{
+    width: 100%;
+}
+.batch{
+    position: relative;
+}
+.batch-img{
+    width: 50px;
+    top: -30px;
+    left: 320px;
+    position: absolute;
+}
