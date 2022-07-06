@@ -49,3 +49,61 @@
     font-size: 18px;
     color: white;
 }
+.title2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.section-two{
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    width: 350px;
+    height: 250PX;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: .8ms;
+}
+.card1:hover{
+    border: 1px solid rgb(243, 29, 29);
+    margin-top: -20px;
+    transition: .8ms;
+}
+.gym-icon{
+    width: 50px;
+}
+.about-container{
+    display: flex;
+    background-color: black;
+    color: white;
+    /*justify-content: space-evenly;
+    align-items: center;*/
+}
+.about-left{
+    width: 700px;
+}
+.about-right{
+    width: 700px;
+}
+.workout-image{
+    display: flex;
+    margin: 50px;
+}
+.workout-image img{
+    display: flex;
+    width: 350px;
+    height: 550px;
+    transform: skewY(-15deg);
+}
+.btn-text{
+    text-decoration: none;
+    color: white;
+}
